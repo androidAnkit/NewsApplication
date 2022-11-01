@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 35,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Natasha Turak",
+      "title": "Putin says there is 'no need' to use nuclear weapons in Ukraine; Biden casts doubt on the claims - CNBC",
+      "description": "Western and Russian leaders exchanged claims and accusations over each other's willingness to use nuclear weapons.",
+      "url": "https://www.cnbc.com/2022/10/28/russia-ukraine-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107141871-16668841262022-10-27t145117z_1466824837_rc2q9x9ooh0z_rtrmadp_0_ukraine-crisis-putin.jpeg?v=1666949785&w=1920&h=1080",
+      "publishedAt": "2022-10-28T12:16:00Z",
+      "content": "Western and Russian leaders exchanged claims and accusations over each other's willingness to use nuclear weapons, with U.S. President Joe Biden expressing skepticism over Russian President Vladimir … [+1009 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Jacqui Palumbo, CNN",
+      "title": "Colossal Andy Warhol painting of a car crash could sell for over $80 million - CNN",
+      "description": "Andy Warhol may be best known for his pop art iconography of Marilyn Monroe and Campbell's soup cans, but next month, a \"haunting\" silkscreen he made of a mangled car crash will go up for sale at Sotheby's in New York.",
+      "url": "https://www.cnn.com/style/article/andy-warhol-white-disaster-sothebys/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/221027153539-04-andy-warhol-white-disaster-sothebys-super-tease.jpg",
+      "publishedAt": "2022-10-28T11:24:55Z",
+      "content": "artsUpdated 28th October 2022\r\nAndy Warhol may be best known for his pop art iconography of Marilyn Monroe, Chairman Mao and Campbell's soup cans, but next month, a \"haunting\" silkscreen print of a m… [+2846 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Josh Alper",
+      "title": "Robert Quinn, Eagles agree to void final two years of his contract - NBC Sports",
+      "description": "The Bears will be paying the lion’s share of Robert Quinn‘s salary after trading the veteran edge rusher to the Eagles and the Eagles won’t be on the hook for any money beyond this season.Ian Rapoport of NFL Media reports that the Eagles and Quinn agreed to d…",
+      "url": "https://profootballtalk.nbcsports.com/2022/10/28/robert-quinn-eagles-agree-to-void-final-two-years-of-his-contract/",
+      "urlToImage": "https://profootballtalk.nbcsports.com/wp-content/uploads/sites/25/2022/10/GettyImages-1436599528-1-e1666956103293.jpg",
+      "publishedAt": "2022-10-28T11:22:00Z",
+      "content": "The Bears will be paying the lions share of Robert Quinns salary after trading the veteran edge rusher to the Eagles and the Eagles wont be on the hook for any money beyond this season.\r\nIan Rapoport… [+558 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Sabrina Valle",
+      "title": "Exxon's record-smashing Q3 profit nearly matches Apple's - Yahoo Finance",
+      "description": "Exxon Mobil Corp on Friday smashed expectations as soaring energy prices fuelled a record-breaking quarterly profit, nearly matching that of tech giant Apple...",
+      "url": "https://finance.yahoo.com/news/exxons-record-smashing-q3-profit-103206191.html",
+      "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/ed2fdee07faec1d52167196a4049a154",
+      "publishedAt": "2022-10-28T10:32:06Z",
+      "content": "By Sabrina Valle\r\nHOUSTON (Reuters) - Exxon Mobil Corp on Friday smashed expectations as soaring energy prices fuelled a record-breaking quarterly profit, nearly matching that of tech giant Apple.\r\nI… [+3588 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sandee LaMotte",
+      "title": "Taking your blood pressure meds may reduce risk of dementia - CNN",
+      "description": "A large new analysis finds regularly taking blood pressure medications to lower existing hypertension during midlife can reduce the risk of later dementia.",
+      "url": "https://www.cnn.com/2022/10/28/health/blood-pressure-dementia-wellness/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221025142512-home-blood-pressure-check.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-10-28T10:13:00Z",
+      "content": "Knowing you have higher than normal blood pressure and taking medications daily to treat it may be one key to avoiding dementia in later life, a new study found.\r\nScientists already know that having … [+4074 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Pictures show 'biggest ever' meteor impact on Mars - BBC News - BBC News",
+      "description": null,
+      "url": "https://www.youtube.com/supported_browsers?next_url=https:%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dmg95vY10WSo",
+      "urlToImage": null,
+      "publishedAt": "2022-10-28T09:38:20Z",
+      "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Musk begins his Twitter ownership with firings, declares the 'bird is freed' - Reuters",
+      "description": "Elon Musk has taken ownership of Twitter Inc <a href=\"https://www.reuters.com/companies/TWTR.N\" target=\"_blank\">(TWTR.N)</a> with brutal efficiency, firing top executives but providing little clarity over how he will achieve the ambitions he has outlined for …",
+      "url": "https://www.reuters.com/markets/deals/elon-musk-completes-44-bln-acquisition-twitter-2022-10-28/",
+      "urlToImage": "https://www.reuters.com/resizer/d7DuRh0jCOAshAMCC4od6qSmlp0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/GTWVTYFH6VI4FDP4ISD7S5624Y.jpg",
+      "publishedAt": "2022-10-28T09:31:00Z",
+      "content": "Oct 28 (Reuters) - Elon Musk has taken ownership of Twitter Inc (TWTR.N) with brutal efficiency, firing top executives but providing little clarity over how he will achieve the ambitions he has outli… [+6418 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Andrew Liszewski",
+      "title": "You Won't Be Disappointed Choosing the Nothing Ear (stick) Wireless Earbuds Over the Latest AirPods - Gizmodo",
+      "description": "Nothing's second pair of wireless earbuds strike a perfect balance of performance and value.",
+      "url": "https://gizmodo.com/review-nothing-ear-stick-wireless-earbuds-1849637860",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/b698aaf253070216feb1b204f57060dc.jpg",
+      "publishedAt": "2022-10-28T09:00:00Z",
+      "content": "Although the companys specialty seems to be manufacturing hype, after the Ear (1) and Phone (1), Nothing is back with its third product: another set of wireless earbuds that deliver solid performance… [+9987 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Rishi Sunak criticised for skipping COP27 climate summit - BBC",
+      "description": "The new PM will not attend the COP27 conference in Egypt due to pressing commitments, No 10 says.",
+      "url": "https://www.bbc.com/news/uk-politics-63418876",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8E9E/production/_127401563_gettyimages-1236311666.jpg",
+      "publishedAt": "2022-10-28T08:22:05Z",
+      "content": "Prime Minister Rishi Sunak has been accused of \"a failure of leadership\" for not attending the COP27 climate summit next month.\r\nOpposition parties and environmental groups said the decision showed t… [+4727 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Matias Grez, Homero de la Fuente",
+      "title": "World Series 2022: Philadelphia Phillies and Houston Astros face off for place in MLB history - CNN",
+      "description": "The 2022 World Series is a classic case of overwhelming favorite against plucky underdog.",
+      "url": "https://www.cnn.com/2022/10/28/sport/world-series-2022-preview-phillies-astros/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221027143934-ranger-suarez-philadelphia-phillies.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-10-28T08:19:00Z",
+      "content": "The 2022 World Series is a classic case of overwhelming favorite against plucky underdog.\r\nThe Houston Astros, the No. 1 seed in the American League playoffs, go into Fridays Game 1 tipped by most, i… [+5206 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SamMobile"
+      },
+      "author": "SamMobile",
+      "title": "Galaxy S23 Ultra's 200MP camera could take some knockout pictures - SamMobile - Samsung news",
+      "description": "One of the standout features of the Galaxy S23 Ultra is definitely going to be its 200MP primary camera. While ...",
+      "url": "https://www.sammobile.com/news/galaxy-s23-ultra-200mp-camera-could-take-some-knockout-pictures/",
+      "urlToImage": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-Ultra-15-720x405.jpg",
+      "publishedAt": "2022-10-28T08:07:00Z",
+      "content": "One of the standout features of the Galaxy S23 Ultra is definitely going to be its 200MP primary camera. While other manufacturers have already used 200MP camera sensors made by Samsung, the South Ko… [+1494 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Elizabeth Wolfe, Raja Razek",
+      "title": "St. Louis school shooter was flagged in FBI background check but was still able to legally purchase a gun, police say - CNN",
+      "description": "The gunman who killed two people and wounded several others in a school shooting in St. Louis, Missouri, on Monday was flagged by an FBI background check but was still able to purchase the AR-15-style rifle he used in the attack from a private seller, police …",
+      "url": "https://www.cnn.com/2022/10/28/us/st-louis-school-shooting-friday/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221025150312-04-st-louis-school-shooting.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-10-28T07:08:00Z",
+      "content": "The gunman who killed two people and wounded several others in a school shooting in St. Louis, Missouri, on Monday was flagged by an FBI background check but was still able to purchase the AR-15-styl… [+5431 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CBS Sports"
+      },
+      "author": "Bryan DeArdo",
+      "title": "Ravens vs. Buccaneers score, takeaways: Baltimore hands Tom Brady first three-game skid since 2002 - CBS Sports",
+      "description": "Baltimore rebounded after a slow start on Thursday night",
+      "url": "https://www.cbssports.com/nfl/news/ravens-vs-buccaneers-score-takeaways-baltimore-hands-tom-brady-first-three-game-skid-since-2002/live/",
+      "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/10/28/750d4e3e-6c14-4ecf-b772-42c5b2a743c3/thumbnail/1200x675/7d73af2233b22dfdbb5758b3c8982fd7/bradyravens.jpg",
+      "publishedAt": "2022-10-28T06:50:00Z",
+      "content": "Thursday night was a who's who game for the Baltimore Ravens and Tampa Bay Buccaneers. In posting a 27-22 win in Tampa Bay, the Ravens moved to 5-3 while looking very much like the AFC North's best t… [+5068 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hollywood Reporter"
+      },
+      "author": "Beatrice Verhoeven",
+      "title": "Ryan Murphy Says He Reached Out to “20 of the Victims’ Family and Friends” For ‘Dahmer’ Series: “Not a Single Person Responded to Us” - Hollywood Reporter",
+      "description": "Dahmer – Monster: The Jeffrey Dahmer Story creator Ryan Murphy said he and his team reached out to 20 victims’ families and friends during the three and a half years it took to research and prepare for the Netflix series about the serial killer. “It’s somethi…",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/ryan-murphy-says-he-reached-out-to-20-of-the-victims-family-and-friends-for-dahmer-series-not-a-single-person-responded-to-us-1235250610/",
+      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2021/08/GettyImages-1144677146-1.jpeg?w=1024",
+      "publishedAt": "2022-10-28T05:26:33Z",
+      "content": "Dahmer – Monster: The Jeffrey Dahmer Story creator Ryan Murphy said he and his team reached out to 20 victims’ families and friends during the three and a half years it took to research and prepare f… [+6207 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Hyung-jin Kim",
+      "title": "N Korea fires missiles toward sea as US warns over nukes - The Associated Press",
+      "description": "SEOUL, South Korea (AP) — North Korea fired two short-range ballistic missiles toward the sea on Friday in its first ballistic weapons launches in two weeks, as the U.S. military warned the North that the use of nuclear weapons “will result in the end of that…",
+      "url": "https://apnews.com/0a2f424e646b9d9a987e5f5e65189194",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/c33ae967f6dc4cc1884144a96d3129b7/3000.jpeg",
+      "publishedAt": "2022-10-28T05:21:27Z",
+      "content": "SEOUL, South Korea (AP) North Korea fired two short-range ballistic missiles toward the sea on Friday in its first ballistic weapons launches in two weeks, as the U.S. military warned the North that … [+4936 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": null,
+      "title": "Dusty Baker laments lack of U.S.-born Black players in World Series - ESPN",
+      "description": "Dusty Baker says it \"hurts\" to know that there won't be any U.S.-born Black players that kids could look up to in this World Series.",
+      "url": "https://www.espn.com/mlb/story/_/id/34892463/dusty-baker-laments-lack-us-born-black-players-world-series",
+      "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0719%2Fr1037985_1296x729_16%2D9.jpg",
+      "publishedAt": "2022-10-28T05:15:18Z",
+      "content": "HOUSTON -- Dusty Baker grew up watching Black stars shine in the World Series, paving his path to a life devoted to baseball.\r\nWhen he leads the Houston Astros in Game 1 of the World Series against t… [+3634 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KOMO News"
+      },
+      "author": "KOMO News Staff",
+      "title": "Concrete form collapses, injuring Link light rail worker in Mountlake Terrace - KOMO News",
+      "description": "A concrete form collapsed at a job site for the Sound Transit Link light rail project in Mountlake Terrace Thursday, critically injuring a construction worker.",
+      "url": "https://komonews.com/news/local/man-injured-concrete-form-collapsed-sound-transit-link-light-rail-project-mountlake-terrace-washington-construction-worker-hurt",
+      "urlToImage": "https://komonews.com/resources/media/eb5d93ac-1421-482c-92a7-2b9d63595f70-large16x9_ambulance.png?1665939453040",
+      "publishedAt": "2022-10-28T04:45:36Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "INSIDER"
+      },
+      "author": "Azmi Haroun, Erin Snodgrass",
+      "title": "Harvey Weinstein staring down jurors in Los Angeles trial - Insider",
+      "description": "Weinstein, who was found guilty of criminal sexual assault in the first degree and rape in the third degree in New York, faces charges in Los Angeles.",
+      "url": "https://www.insider.com/harvey-weinsteins-facing-staring-at-jurors-in-los-angeles-trial-2022-10",
+      "urlToImage": "https://i.insider.com/635aedf577d9bc001869d8ba?width=1200&format=jpeg",
+      "publishedAt": "2022-10-28T03:38:02Z",
+      "content": "Harvey Weinstein was wheeled to a different section of a Los Angeles courtroom after locking eyes directly with jurors for two days running. He is on trial over criminal rape charges.\r\nThe disgraced … [+2978 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KTRK-TV"
+      },
+      "author": null,
+      "title": "Houston pediatricians seeing unusual second spike in RSV cases as hospitals near capacity - KTRK-TV",
+      "description": "Experts say RSV surges typically happen in the winter, but this year, they've already seen an unusual spike including during off seasons.",
+      "url": "https://abc13.com/rsv-respiratory-syncytial-virus-pediatricians-hospitalizations/12387879/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/12388195_102722-ktrk-ewn-5pm-rng-RSV-cases-THU-shivani-vid.jpg?w=1600",
+      "publishedAt": "2022-10-28T03:29:23Z",
+      "content": "HOUSTON, Texas (KTRK) -- Houston pediatricians are keeping a close eye on hospitalizations, after seeing unusual peaks in respiratory syncytial virus cases among children this year and bed space near… [+5750 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Dakin Andone, Shimon Prokupecz, Matthew J. Friedman",
+      "title": "Texas DPS 'did not fail' Uvalde in school shooting response, director says, as families demand he resign - CNN",
+      "description": "In the face of calls for his resignation Thursday, Texas Department of Public Safety Director Col. Steven McCraw did not step down, saying at a meeting of the agency's oversight board that his officers \"did not fail the community\" of Uvalde during a May mass …",
+      "url": "https://www.cnn.com/2022/10/27/us/uvalde-texas-dps-steven-mccraw/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221026140347-01-steven-mccraw-uvalde-053022.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-10-28T02:18:00Z",
+      "content": "In the face of calls for his resignation Thursday, Texas Department of Public Safety Director Col. Steven McCraw did not step down, saying at a meeting of the agencys oversight board that his officer… [+7739 chars]"
+    }
+  ]
+}
