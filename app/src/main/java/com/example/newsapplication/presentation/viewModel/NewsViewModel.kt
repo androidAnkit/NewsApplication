@@ -45,13 +45,13 @@ class NewsViewModel
 
     // Get Searched News Headlines
     val searchedNews: MutableLiveData<Resource<APIResponse>?> = MutableLiveData()
-    fun getSeachedNewsHeadLines(country: String, page: Int, searchQuery: String) =
+    fun getSeachedNewsHeadLines(country: String, searchQuery: String, page: Int) =
         viewModelScope.launch {
             searchedNews.postValue(Resource.Loading())
             var apiResult: Resource<APIResponse>? = null
             try {
                 if (isNetworkAvailable(app)) {
-                    apiResult = getSearchNewsHeadlinesUsecase.execute(country, page, searchQuery)
+                    apiResult = getSearchNewsHeadlinesUsecase.execute(country, searchQuery, page)
                     searchedNews.postValue(apiResult)
                 } else {
                     searchedNews.postValue(Resource.Error("No Internet connection available"))

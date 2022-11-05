@@ -37,8 +37,8 @@ class NewsFragment : Fragment() {
     private var pages = 0
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_news, container, false)
@@ -57,8 +57,8 @@ class NewsFragment : Fragment() {
                     putSerializable("selected_article", it)
                 }
                 findNavController().navigate(
-                        R.id.action_newsFragment_to_infoFragment,
-                        bundle
+                    R.id.action_newsFragment_to_infoFragment,
+                    bundle
                 )
             }
         }
@@ -95,7 +95,6 @@ class NewsFragment : Fragment() {
                 is Resource.Success -> {
                     hideProgressBar()
                     response.data?.let {
-                        Log.i("MYTAG", "article size: ${it.articles.toList().size}")
                         news_adapter.differ.submitList(it.articles.toList())
                         if (it.totalResults % 20 == 0)
                             pages = it.totalResults / 20
@@ -125,7 +124,7 @@ class NewsFragment : Fragment() {
     private fun setSearchView() {
         binding.svNews.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(searchQuery: String?): Boolean {
-                viewModel.getSeachedNewsHeadLines(country, page, searchQuery.toString())
+                viewModel.getSeachedNewsHeadLines(country, searchQuery.toString(), page)
                 viewSearchNews()
                 return false
             }
@@ -133,7 +132,7 @@ class NewsFragment : Fragment() {
             override fun onQueryTextChange(p0: String?): Boolean {
                 MainScope().launch {
                     delay(2000)
-                    viewModel.getSeachedNewsHeadLines(country, page, p0.toString())
+                    viewModel.getSeachedNewsHeadLines(country, p0.toString(), page)
                     viewSearchNews()
                 }
                 return false
@@ -151,7 +150,8 @@ class NewsFragment : Fragment() {
 
     private fun viewSearchNews() {
         if (view != null) {
-            viewModel.newsHeadlines.observe(viewLifecycleOwner) { response ->
+            viewModel.searchedNews.observe(viewLifecycleOwner) { response ->
+                Log.i("MYTAG", "The response is: $response")
                 when (response) {
                     is Resource.Success -> {
                         hideProgressBar()
@@ -173,7 +173,11 @@ class NewsFragment : Fragment() {
 
                     is Resource.Error -> {
                         hideProgressBar()
-                        Toast.makeText(activity, "An error occured: ${response.message}, code: ${response.code}", Toast.LENGTH_LONG).show()
+                        Toast.makeText(
+                            activity,
+                            "An error occured: ${response.message}, code: ${response.code}",
+                            Toast.LENGTH_LONG
+                        ).show()
                     }
                 }
             }
