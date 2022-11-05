@@ -15,10 +15,12 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding:ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
+
     @Inject
     lateinit var newsViewModelFactory: NewsViewModelFactory
     lateinit var newsViewModel: NewsViewModel
+
     @Inject
     lateinit var newsAdapter: NewsAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,10 +28,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+                .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         val navController = navHostFragment.navController
         binding.bnvNews.setupWithNavController(navController)
         newsViewModel = ViewModelProvider(this, newsViewModelFactory)
-            .get(NewsViewModel::class.java)
+                .get(NewsViewModel::class.java)
     }
 }

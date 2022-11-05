@@ -31,8 +31,8 @@ class InfoFragment : Fragment() {
 
         fragmentInfoBinding.wvInfo.apply {
             webViewClient = WebViewClient()
-            if(article.url!=null){
-                loadUrl(article.url)
+            if(article.url?.isNotEmpty() == true){
+                loadUrl(article.url.toString())
             }
         }
 
