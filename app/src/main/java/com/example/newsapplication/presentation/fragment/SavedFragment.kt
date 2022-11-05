@@ -1,4 +1,4 @@
-package com.example.newsapplication
+package com.example.newsapplication.presentation.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,6 +10,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.newsapplication.presentation.activity.MainActivity
+import com.example.newsapplication.R
 import com.example.newsapplication.databinding.FragmentSavedBinding
 import com.example.newsapplication.presentation.adapter.NewsAdapter
 import com.example.newsapplication.presentation.viewModel.NewsViewModel

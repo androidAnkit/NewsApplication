@@ -1,4 +1,4 @@
-package com.example.newsapplication
+package com.example.newsapplication.presentation.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
 import androidx.navigation.fragment.navArgs
+import com.example.newsapplication.presentation.activity.MainActivity
+import com.example.newsapplication.R
 import com.example.newsapplication.databinding.FragmentInfoBinding
 import com.example.newsapplication.presentation.viewModel.NewsViewModel
 import com.google.android.material.snackbar.Snackbar

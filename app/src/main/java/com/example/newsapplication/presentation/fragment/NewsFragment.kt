@@ -1,8 +1,7 @@
-package com.example.newsapplication
+package com.example.newsapplication.presentation.fragment
 
 import android.os.Bundle
 import android.util.Log
-import android.view.AbsSavedState
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,12 +9,11 @@ import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.SearchView
 import android.widget.Toast
-import androidx.activity.viewModels
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.newsapplication.presentation.activity.MainActivity
+import com.example.newsapplication.R
 import com.example.newsapplication.data.util.Resource
 import com.example.newsapplication.databinding.FragmentNewsBinding
 import com.example.newsapplication.presentation.adapter.NewsAdapter
