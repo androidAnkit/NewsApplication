@@ -4,7 +4,7 @@ import com.example.newsapplication.data.model.Article
 import com.example.newsapplication.domain.repository.NewsRepository
 
 class SaveNewsHeadlinesUsecase(private val newsRespository: NewsRepository) {
-    suspend fun execute(article: Article){
+    suspend fun execute(article: Article):Long =
         newsRespository.saveNews(article)
-    }
+
 }

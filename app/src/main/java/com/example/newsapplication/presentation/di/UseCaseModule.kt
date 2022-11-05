@@ -47,4 +47,11 @@ class UseCaseModule {
     ):SearchNewsHeadlinesUsecase =
         SearchNewsHeadlinesUsecase(newsRepository)
 
+    @Singleton
+    @Provides
+    fun getSingleSavedNewsHeadlineProvider(
+        newsRepository: NewsRepository
+    ):GetSingleSavedNewsHeadlineUseCase =
+        GetSingleSavedNewsHeadlineUseCase(newsRepository)
+
 }

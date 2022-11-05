@@ -90,7 +90,7 @@ class NewsFragment : Fragment() {
 
     private fun viewNewsList() {
         viewModel.getNewsHeadLines(country, page)
-        viewModel.newsHeadlines.observe(viewLifecycleOwner, { response ->
+        viewModel.newsHeadlines.observe(viewLifecycleOwner) { response ->
             when (response) {
                 is Resource.Success -> {
                     hideProgressBar()
@@ -112,10 +112,14 @@ class NewsFragment : Fragment() {
 
                 is Resource.Error -> {
                     hideProgressBar()
-                    Toast.makeText(activity, "An error occured: ${response.message}, code: ${response.code}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(
+                        activity,
+                        "An error occured: ${response.message}, code: ${response.code}",
+                        Toast.LENGTH_LONG
+                    ).show()
                 }
             }
-        })
+        }
     }
 
     private fun setSearchView() {
@@ -147,7 +151,7 @@ class NewsFragment : Fragment() {
 
     private fun viewSearchNews() {
         if (view != null) {
-            viewModel.newsHeadlines.observe(viewLifecycleOwner, { response ->
+            viewModel.newsHeadlines.observe(viewLifecycleOwner) { response ->
                 when (response) {
                     is Resource.Success -> {
                         hideProgressBar()
@@ -172,7 +176,7 @@ class NewsFragment : Fragment() {
                         Toast.makeText(activity, "An error occured: ${response.message}, code: ${response.code}", Toast.LENGTH_LONG).show()
                     }
                 }
-            })
+            }
         }
     }
 
